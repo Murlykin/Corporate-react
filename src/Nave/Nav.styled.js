@@ -56,4 +56,5 @@ export const SiteNavPosition = styled.img`
 export const SiteNavEllipse = styled.img`
     width: 49px;
     height: 49px;
+    
     `;
