@@ -5,12 +5,11 @@ export const MainNav = styled.div`
 `
     ;
 export const SiteNav = styled.ul`
-
     display: flex;
     margin-left: 93px;
 `;
 export const SiteNavItems = styled.li`
-    margin-right: 40px;
+    margin-right: 20px;
     display: flex;
     align-items: center;
     `
@@ -28,6 +27,7 @@ export const SiteNavItem = styled.span`
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 5px;
 `;
 export const Icons = styled.img`
     margin-left: 10px;
@@ -35,7 +35,6 @@ export const Icons = styled.img`
     height: 16px;
 `;
 export const IconsFlag = styled.img`
-    margin-left: 10px;
     width: 25px;
     height: 15px;
 `;
@@ -47,14 +46,14 @@ export const SiteNavImg = styled.div`
 `
 ;
 export const SiteNavPosition = styled.img`
-    margin: 20px 10px 30px;
+    margin: 20px 20px 30px;
     z-index: 2;
     position: absolute;
     width: 29px;
     height: 29px;
 `;
 export const SiteNavEllipse = styled.img`
-    width: 49px;
-    height: 49px;
-    
+    width: 69px;
+    height: 69px;
+
     `;

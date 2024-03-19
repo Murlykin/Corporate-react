@@ -24,18 +24,18 @@ const Navbar = () => {
           <SiteNavItems><SiteNavLink>Contact us</SiteNavLink><Icons src={ArrowDown} alt="Logo" />
           </SiteNavItems>
           <SiteNavItems>
-            <SiteNavItem> <SiteNavLink><IconsFlag src={Flag} alt="Flag" />
-              EN</SiteNavLink>
+            <SiteNavItem>
+              <IconsFlag src={Flag} alt="Flag" />
+              <SiteNavLink>EN</SiteNavLink>
               <Icons src={ArrowDown} alt="Logo" />
             </SiteNavItem>
           </SiteNavItems>
         </SiteNav>
       </div>
       <SiteNavImg>
-       <SiteNavEllipse src={Ellipse} alt="Ellipse" /> 
+        <SiteNavEllipse src={Ellipse} alt="Ellipse" /> 
         <SiteNavPosition src={Vector} alt="Vector" /> 
-                {/* <img src="./images/svg/Vector.svg" class="site-nav__icones site-nav__position" /> */}
-      </SiteNavImg>
+        </SiteNavImg>
 
     </MainNav>
   );
