@@ -21,6 +21,7 @@ export const SiteNavLink = styled.a`
     text-decoration: none;
     position: relative;
     color: #000000;
+    cursor: pointer;
 `
 ;
 export const SiteNavItem = styled.span`

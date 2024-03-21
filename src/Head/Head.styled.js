@@ -109,24 +109,24 @@ export const HeadSocial = styled.div`
         0px 2px 1px rgba(0, 0, 0, 0.2);
 `;
 export const HeadMedal = styled.div`
-    margin: -60px 0 -50px 100px;
+    margin: -80px 0 -50px 120px;
     display: flex;
     align-self: flex-end;
 `;
 
-export const HeadMedal1 = styled.div`
-    margin-right: -80px;
+export const HeadMedal1 = styled.img`
+    // margin-right: -80px;
     position: relative;
-    z-index: 3;
+    z-index: 10;
     display: flex;
     align-items: center;
-    
+    transform: translate(78px, -4%)
 `;
-export const HeadMedal2 = styled.div`
-    margin-right: -20px;
+export const HeadMedal2 = styled.img`
+    // margin-right: -60px;
     display: flex;
     position: relative;
-    z-index: -1;
+    z-index: 1;
 `;
 
 export const HeadPosition = styled.div`
@@ -135,8 +135,8 @@ export const HeadPosition = styled.div`
     justify-content: space-around;
     // align-items: center;
     gap:10px;
-    margin-top: 100px;
-// margin-left: -50px;
+    margin-top: -50px;
+    margin-left: 10px;
 `;
 export const HeadP= styled.p`
     font-family: "Roboto", sans-serif;

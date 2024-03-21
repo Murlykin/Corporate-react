@@ -19,7 +19,7 @@ export const BackHead= styled.div`
     z-index: -15;
     justify-content: space-between;
     align-items: center;
-    gap: 400px;
+    gap: 200px;
     margin-top: 300px;
 `
     ;
@@ -69,12 +69,12 @@ export const BackHeadRightImg5= styled.img`
 export const BackHeadRightImg3= styled.img`
     width: 180px;
     height: 80px;
-    transform: translate(1px, 70%);
+    transform: translate(230px, 70%);
 `
     ;
 export const BackHeadRightImg4= styled.img`
     height: 120px;
-    transform: translate(140px, 70%);
+    transform: translate(100px, 120%);
 `
     ;
 export const BackHeadRightImg6= styled.img`
