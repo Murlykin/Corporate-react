@@ -4,6 +4,9 @@
 import './App.css'
 import Headerbar from "./Header/index"
 import Headbar from "./Head/index"
+import СlientsSection  from "./Clients/index"
+
+
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -12,6 +15,7 @@ function App() {
       <div>
         <Headerbar />
         <Headbar />
+        <СlientsSection />
       </div>
 
     </>
