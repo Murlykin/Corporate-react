@@ -3,6 +3,7 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Headerbar from "./Header/index"
+import Headbar from "./Head/index"
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -10,7 +11,7 @@ function App() {
     <>
       <div>
         <Headerbar />
-
+        <Headbar />
       </div>
 
     </>
