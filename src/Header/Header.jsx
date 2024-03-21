@@ -35,7 +35,6 @@ const Headerbar = () => {
           <BackHeadRightPosition>
             <BackHeadRightImg3 src={Head3} alt="Head img" />
             <BackHeadRightImg4 src={Head4} alt="Head img" />
-
             <BackHeadRightImg6 src={Head6} alt="Head img" />
           </BackHeadRightPosition>
         </BackHeadRight>
