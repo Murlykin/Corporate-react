@@ -5,11 +5,9 @@ import СlientsSection  from "./Clients/index"
 import AboutSection  from "./About/index"
 import VisonSection from "./Vison/index"
 import FeaturesSection from "./Features/index"
-
+import TeamcSection from "./Teams/index"
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
@@ -19,6 +17,7 @@ function App() {
         <AboutSection />
         <VisonSection />
         <FeaturesSection />
+        <TeamcSection />
       </div>
 
     </>
