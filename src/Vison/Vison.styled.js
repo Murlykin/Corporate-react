@@ -37,7 +37,7 @@ export const VisonTitleP = styled.p`
 `
     ;
 
-export const VisonPosition  = styled.div`
+export const VisonPosition = styled.div`
     display: flex;
     transform: translate(100px, 0%);
     align-items: center;
@@ -59,7 +59,7 @@ export const VisonServises = styled.p`
     `;
 
 
-export const VisonCard  = styled.div`
+export const VisonCard = styled.div`
     display: flex;
     align-items: center;
     Justify-content: center;
@@ -67,7 +67,7 @@ export const VisonCard  = styled.div`
 `
     ;
 
-export const VisonCardItems  = styled.div`
+export const VisonCardItems = styled.div`
     width: 340px;
     height: 462px;
     border-radius: 10px;
