@@ -4,6 +4,8 @@ import Headbar from "./Head/index"
 import СlientsSection  from "./Clients/index"
 import AboutSection  from "./About/index"
 import VisonSection from "./Vison/index"
+import FeaturesSection from "./Features/index"
+
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -16,6 +18,7 @@ function App() {
         <СlientsSection />
         <AboutSection />
         <VisonSection />
+        <FeaturesSection />
       </div>
 
     </>
