@@ -118,7 +118,7 @@ export const AboutButton = styled.button`
     transition: box-shadow 400ms ease-in 0s, color 400ms ease-in 0s, background-color 400ms ease-in 0s;
         }
     
-        &:active {
+        &:hover {
                 background-color: #f4596b;
     border: 1px solid #f4596b;
     transition: box-shadow 400ms ease-in 0s, color 400ms ease-in 0s, background-color 400ms ease-in 0s;
