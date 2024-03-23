@@ -6,6 +6,7 @@ import AboutSection  from "./About/index"
 import VisonSection from "./Vison/index"
 import FeaturesSection from "./Features/index"
 import TeamcSection from "./Teams/index"
+import BlogSection from "./Blog/index"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <VisonSection />
         <FeaturesSection />
         <TeamcSection />
+        <BlogSection />
       </div>
 
     </>
