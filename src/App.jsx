@@ -7,6 +7,7 @@ import VisonSection from "./Vison/index"
 import FeaturesSection from "./Features/index"
 import TeamcSection from "./Teams/index"
 import BlogSection from "./Blog/index"
+import GetSection from "./Get/index"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <FeaturesSection />
         <TeamcSection />
         <BlogSection />
+        <GetSection />
       </div>
 
     </>
