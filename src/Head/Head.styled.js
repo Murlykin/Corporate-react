@@ -153,7 +153,6 @@ export const HeadPowerful = styled.div`
 `;
 
 export const HeadPowerfulImg  = styled.img`
-
 `;
 
 export const HeadP700= styled.p`
