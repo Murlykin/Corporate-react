@@ -79,7 +79,8 @@ const Headbar = () => {
                         <HeadP700>Tuesday - $80.00</HeadP700>
                     </div>
                     <HeadPColor>+96 pts</HeadPColor>
-                </HeadPowerful></HeadPosition>
+                        </HeadPowerful>
+                </HeadPosition>
             </HeadSocial>  
             </HeadRait>
 

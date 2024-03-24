@@ -136,7 +136,7 @@ export const HeadPosition = styled.div`
     // align-items: center;
     gap:10px;
     margin-top: -50px;
-    margin-left: 10px;
+    // margin-left: 10px;
 `;
 export const HeadP= styled.p`
     font-family: "Roboto", sans-serif;
@@ -149,7 +149,7 @@ export const HeadPowerful = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 `;
 
 export const HeadPowerfulImg  = styled.img`
