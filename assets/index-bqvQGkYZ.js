@@ -252,7 +252,6 @@ margin-left: 50px;
     align-items: center;
     gap: 5px;
 `,vu=A.img`
-
 `,yu=A.p`
     font-family: "Roboto", sans-serif;
     font-weight: 700;
