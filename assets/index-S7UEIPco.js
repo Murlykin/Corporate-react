@@ -240,7 +240,7 @@ margin-left: 50px;
     // align-items: center;
     gap:10px;
     margin-top: -50px;
-    margin-left: 10px;
+    // margin-left: 10px;
 `,mh=A.p`
     font-family: "Roboto", sans-serif;
     color: #5a5666;
@@ -250,7 +250,7 @@ margin-left: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 `,vu=A.img`
 
 `,yu=A.p`
