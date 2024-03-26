@@ -1,3 +1,12 @@
+
+@font-face {
+  font-family: 'Catamaran';
+  src: url("./Fonts/Catamaran/Catamaran-VariableFont_wght.ttf") ;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url("./Fonts/Roboto/Roboto-Regular.ttf") format('ttf');
+}
 html {
   box-sizing: border-box;
 }
@@ -39,4 +48,27 @@ body {
   font-size: 16px;
   letter-spacing: 0.03em;
   margin: 0 auto;
+  background-color: var(--body-background-color);
+}
+
+
+:root {
+
+  --body-background-color: #ffffff;
+  --texst-color: #000000;
+  --body-background-color-Black: #212121;
+
+  
+
+  --text-color-p: #757575;
+  --text-color-p-head:#858585;
+  --button-hover-focus: #188ce8;
+  --footer-bacground-color: #2f303a;
+  --teams-bacground-color: #f5f4fa;
+  --border-color: #eeeeee;
+  --icone-color: #afb1b8;
+  --icone-bg-color: #f5f4fa;
+  --timing-functione: cubic-bezier(0.4, 0, 0.2, 1);
+
+
 }

@@ -15,12 +15,14 @@ export const HeadLeftTitle= styled.h2`
     font-size: 60px;
     line-height: 1.2;
     font-weight: 700;
+    color: var(--texst-color);
 `
 ;
 export const HeadLeftP= styled.p`
         font-size: 18px;
     line-height: 1.66;
     margin: 30px 0 30px;
+    color: var(--texst-color);
 `
     ;
 
@@ -40,22 +42,24 @@ export const HeadLeftP1= styled.p`
     font-weight: 600;
     font-size: 15px;
     line-height: 1.66;
-    color: #858585;
+    color: var(--text-color-p-head); 
     margin-top: 10px;
 `
     ;
 export const HeadLeftFormInput = styled.input`
-    border: 1px solid #ffffff;
+    border: 1px solid var(--body-background-color);
     width: 400px;
     height: 54px;
-    padding-left: 15px;
+    padding: 0 15px 0 15px;
+    margin-left: 10px;
+    border-radius: 10px;
 `
 export const HeadLeftFormButton = styled.button`
     font-family: "Catamaran", sans-serif;
     font-weight: 600;
     font-size: 15px;
     line-height: 1.66;
-    color: #ffffff;
+    color: var(--body-background-color);
     background-color: #d22238;
     border-radius: 10px;
     width: 143px;
@@ -64,13 +68,13 @@ export const HeadLeftFormButton = styled.button`
     margin-right: 10px;
     
     &:focus {
-                background-color: #f4596b;
-    border: 1px solid #f4596b;
-    transition: box-shadow 400ms ease-in 0s, color 400ms ease-in 0s, background-color 400ms ease-in 0s;
+        background-color: #f4596b;
+        border: 1px solid #f4596b;
+        transition: box-shadow 400ms ease-in 0s, color 400ms ease-in 0s, background-color 400ms ease-in 0s;
         }
     
         &:hover {
-                background-color: #f4596b;
+        background-color: #f4596b;
     border: 1px solid #f4596b;
     transition: box-shadow 400ms ease-in 0s, color 400ms ease-in 0s, background-color 400ms ease-in 0s;
         }    
@@ -96,8 +100,8 @@ export const HeadSocial = styled.div`
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid #ffffff;
-    background-color: #ffffff;
+    border: 1px solid var(--body-background-color);
+    background-color: var(--body-background-color);
     border-radius: 10px;
     transform: rotate(-15.42deg);
     width: 268px;

@@ -10,7 +10,6 @@ import Ellipse from "../images/Ellipse1.png";
 const Navbar = () => {
   return (
     <MainNav>
-      <div>
         <SiteNav>
           <SiteNavItems>
             <SiteNavLink>Contact Center</SiteNavLink>
@@ -31,8 +30,7 @@ const Navbar = () => {
             </SiteNavItem>
           </SiteNavItems>
         </SiteNav>
-      </div>
-      <SiteNavImg>
+            <SiteNavImg>
         <SiteNavEllipse src={Ellipse} alt="Ellipse" /> 
         <SiteNavPosition src={Vector} alt="Vector" /> 
         </SiteNavImg>

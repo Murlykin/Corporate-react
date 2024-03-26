@@ -7,12 +7,15 @@ export const Header= styled.div`
 `
 ;
 
-export const Logo= styled.img`
-    display: flex;
-    align-items: center;
-    justify-content: center;
+export const Logo = styled.svg`
+    width: 240px;
+    height: 35px;
+    fill: var(--texst-color);
+    margin-left: -50px;
 `
     ;
+
+
 export const BackHead= styled.div`
     display: flex;
     position: absolute;
