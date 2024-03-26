@@ -11,7 +11,7 @@ export const Logo = styled.svg`
     width: 240px;
     height: 35px;
     fill: var(--texst-color);
-    margin-left: -50px;
+    margin-left: -150px;
 `
     ;
 
