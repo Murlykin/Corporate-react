@@ -45,7 +45,7 @@ Error generating stack: `+l.message+`
     width: 240px;
     height: 35px;
     fill: var(--texst-color);
-    margin-left: -50px;
+    margin-left: -150px;
 `,EA=A.div`
     display: flex;
     position: absolute;
