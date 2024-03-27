@@ -71,7 +71,7 @@ export const FooterUl= styled.ul`
     ;  
 export const FooterDecaration= styled.a`
     text-decoration: none;
-    color: #000000;
+    color: #5a5666;
 `
     ;  
 
@@ -98,6 +98,7 @@ export const FooterCopyraight= styled.p`
     color: #3d3d3d;
     text-align: center;
     padding: 10px;
+    color: #5a5666;
 `
     ;  
 

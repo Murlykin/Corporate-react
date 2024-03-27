@@ -10,8 +10,8 @@ import BlogSection from "./Blog/index"
 import GetSection from "./Get/index"
 import FooterSection from "./Footer/index"
 
-
 function App() {
+
   return (
     <>
       <div>
@@ -26,9 +26,9 @@ function App() {
         <GetSection />
         <FooterSection />
       </div>
-
     </>
   )
 }
 
 export default App
+

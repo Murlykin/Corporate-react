@@ -10,8 +10,11 @@ export const Header= styled.div`
 export const Logo = styled.svg`
     width: 240px;
     height: 35px;
-    fill: var(--texst-color);
+    fill: #3F3F3F;
     margin-left: -150px;
+    &:hover {
+    fill: #5a5666;;
+    transition: all .25s ease 0s;
 `
     ;
 

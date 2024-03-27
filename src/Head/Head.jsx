@@ -20,6 +20,8 @@ import {
     HeadPowerfulImg,
     HeadP700,
     HeadPColor,
+    HeadH4,
+    HeadH3,
 } from "./Head.styled";
 import Woman from "../images/011.png";
 import Medal from "../images/svg/medal.svg";
@@ -60,14 +62,14 @@ const Headbar = () => {
                     <HeadMedal2 src={Ellipsel}  alt="" />
                 </HeadMedal>
                 <HeadPosition>
-                    <h3>Best Design Awards</h3>
+                    <HeadH3>Best Design Awards</HeadH3>
                     <HeadP>#1 UX Agency</HeadP>
                 
                     <HeadPowerful>
                         
                     <HeadPowerfulImg src={MaskGroup1} alt="" />
                     <div>
-                        <h4>Powerful Platform</h4>
+                        <HeadH4>Powerful Platform</HeadH4>
                         <HeadP700>Tuesday - $80.00</HeadP700>
                     </div>
                     <HeadPColor>+96 pts</HeadPColor>
@@ -75,7 +77,7 @@ const Headbar = () => {
                 <HeadPowerful>
                     <HeadPowerfulImg src={MaskGroup2} alt=""/>
                     <div>
-                        <h4>Powerful Platform</h4>
+                        <HeadH4>Powerful Platform</HeadH4>
                         <HeadP700>Tuesday - $80.00</HeadP700>
                     </div>
                     <HeadPColor>+96 pts</HeadPColor>

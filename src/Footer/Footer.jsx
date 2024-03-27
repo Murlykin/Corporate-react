@@ -20,7 +20,7 @@ import Group from "../images/svg/Group.png";
 import House from "../images/House.png";
 import Phone from "../images/Phone.png";
 import Fax from "../images/Fax.png";
-
+import BtnScrollUp from "../ButtonUp/index"
 
 
 const FooterSection = () => {
@@ -92,6 +92,7 @@ const FooterSection = () => {
                     </FooterUs>
                 </FooterUl>
             </div>
+            <BtnScrollUp />  
         </FooterLink>
         <FooterIaine></FooterIaine>
         <FooterCopyraight>Copyright© All rights reserved by bmark.</FooterCopyraight>

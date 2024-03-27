@@ -15,14 +15,14 @@ export const HeadLeftTitle= styled.h2`
     font-size: 60px;
     line-height: 1.2;
     font-weight: 700;
-    color: var(--texst-color);
+    // color: #000000;
 `
 ;
 export const HeadLeftP= styled.p`
         font-size: 18px;
     line-height: 1.66;
     margin: 30px 0 30px;
-    color: var(--texst-color);
+    // color: #000000;
 `
     ;
 
@@ -42,12 +42,12 @@ export const HeadLeftP1= styled.p`
     font-weight: 600;
     font-size: 15px;
     line-height: 1.66;
-    color: var(--text-color-p-head); 
+    // color: #000000; 
     margin-top: 10px;
 `
     ;
 export const HeadLeftFormInput = styled.input`
-    border: 1px solid var(--body-background-color);
+    border: 1px solid #ffffff;
     width: 400px;
     height: 54px;
     padding: 0 15px 0 15px;
@@ -59,7 +59,7 @@ export const HeadLeftFormButton = styled.button`
     font-weight: 600;
     font-size: 15px;
     line-height: 1.66;
-    color: var(--body-background-color);
+    color: #ffffff;
     background-color: #d22238;
     border-radius: 10px;
     width: 143px;
@@ -100,8 +100,8 @@ export const HeadSocial = styled.div`
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid var(--body-background-color);
-    background-color: var(--body-background-color);
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
     border-radius: 10px;
     transform: rotate(-15.42deg);
     width: 268px;
@@ -158,6 +158,13 @@ export const HeadPowerful = styled.div`
 
 export const HeadPowerfulImg  = styled.img`
 `;
+export const HeadH3= styled.h3`
+color: #5a5666;
+`
+export const HeadH4= styled.h4`
+color: #5a5666;
+`
+    ;
 
 export const HeadP700= styled.p`
     font-family: "Roboto", sans-serif;

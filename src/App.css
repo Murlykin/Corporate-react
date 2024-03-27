@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: 'Catamaran';
-  src: url("./Fonts/Catamaran/Catamaran-VariableFont_wght.ttf") ;
+  src: url("./Fonts/Catamaran/Catamaran-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: 'Roboto';
@@ -53,10 +53,10 @@ body {
 
 
 :root {
-
+/* $body-background-color:#ffffff; */
   --body-background-color: #ffffff;
   --texst-color: #000000;
-  --body-background-color-Black: #212121;
+  --body-background-color-Black: #ea1313;
 
   
 
@@ -69,6 +69,4 @@ body {
   --icone-color: #afb1b8;
   --icone-bg-color: #f5f4fa;
   --timing-functione: cubic-bezier(0.4, 0, 0.2, 1);
-
-
 }
