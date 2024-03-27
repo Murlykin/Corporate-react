@@ -16,7 +16,7 @@ import {
 
 } from "./Footer.styled";
 import Icon from '../images/icons.svg'; 
-import Group from "../images/svg/Group.png";
+// import Group from "../images/svg/Group.png";
 import House from "../images/House.png";
 import Phone from "../images/Phone.png";
 import Fax from "../images/Fax.png";
@@ -29,7 +29,9 @@ const FooterSection = () => {
     <Footer>
         <FooterLink>
                 <div>
-                    <FooterLogo src={Group} alt="" /> 
+                <FooterLogo alt="Logo">
+                     <use href={Icon + '#icon-logo'}></use>
+                </ FooterLogo>
                     <FooterP>Lorem Ipsum is simply dummy text of the<br /> printing and typesetting industry.
                     Lorem<br /> Ipsum has been the
                     industry`s.</FooterP>

@@ -18,8 +18,11 @@ export const FooterLink = styled.div`
     margin-bottom: 20px
 `
     ;
-export const FooterLogo = styled.img`
-    margin: -50px 0 50px;
+export const FooterLogo = styled.svg`
+    margin: -50px 0 50px -110px;
+    fill: #3F3F3F;
+    width: 240px;
+    height: 35px;
 `
     ;
 export const FooterP = styled.p`
@@ -40,7 +43,7 @@ export const FooterSvg = styled.svg`
     cursor: pointer;
     fill: #E0E0E0;
     &:hover {
-    fill: #000000;
+    fill: #3F3F3F;
     transition: all .25s ease 0s;
 }
 
