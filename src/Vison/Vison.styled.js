@@ -108,10 +108,12 @@ export const VisonImg = styled.img`
     ;
 export const VisonImg1 = styled.img`
     background-color: #FCEDEF;;
+    border-radius: 10px;
 `
     ;
 export const VisonImg2 = styled.img`
     background-color: #FCEDEF;
+    border-radius: 10px;
 `
     ;
 export const VisonButton = styled.button`
