@@ -583,8 +583,10 @@ stroke: #858585;
     border-radius: 10px;
 `,qw=y.img`
     background-color: #FCEDEF;;
+    border-radius: 10px;
 `,Jw=y.img`
     background-color: #FCEDEF;
+    border-radius: 10px;
 `,Zs=y.button`
     display: flex;
     align-items: center;
