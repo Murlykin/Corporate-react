@@ -1,10 +1,11 @@
 import {
   MainNav, SiteNav, SiteNavItems, SiteNavLink, Icons, IconsFlag, SiteNavItem, SiteNavImg, SiteNavPosition, SiteNavEllipse,
 } from "./Nav.styled";
-import ArrowDown from "../images/svg/Arrow_Down.svg";
+// import ArrowDown from "../images/svg/Arrow_Down.svg";
 import Flag from "../images/flag.png";
 import Vector from "../images/Profile.png";
 import Ellipse from "../images/Ellipse1.png";
+// import Icon from '../images/icons.svg'; 
 
 
 const Navbar = () => {
@@ -13,20 +14,24 @@ const Navbar = () => {
         <SiteNav>
           <SiteNavItems>
             <SiteNavLink>Contact Center</SiteNavLink>
-            <Icons src={ArrowDown} alt="Logo" />
+            <Icons alt="Logo">  &#5167;</Icons>
           </SiteNavItems>
-          <SiteNavItems><SiteNavLink>Ecommerce</SiteNavLink><Icons src={ArrowDown} alt="Logo" />
+        <SiteNavItems><SiteNavLink>Ecommerce</SiteNavLink><Icons alt="Logo">
+          &#5167;</Icons>
           </SiteNavItems>
           <SiteNavItems><SiteNavLink>Blog</SiteNavLink></SiteNavItems>
-          <SiteNavItems><SiteNavLink>About us</SiteNavLink><Icons src={ArrowDown} alt="Logo" />
+          <SiteNavItems><SiteNavLink>About us</SiteNavLink><Icons alt="Logo">
+          &#5167;</Icons>
           </SiteNavItems>
-          <SiteNavItems><SiteNavLink>Contact us</SiteNavLink><Icons src={ArrowDown} alt="Logo" />
+          <SiteNavItems><SiteNavLink>Contact us</SiteNavLink><Icons alt="Logo">
+          &#5167;</Icons>
           </SiteNavItems>
           <SiteNavItems>
             <SiteNavItem>
               <IconsFlag src={Flag} alt="Flag" />
               <SiteNavLink>EN</SiteNavLink>
-              <Icons src={ArrowDown} alt="Logo" />
+              <Icons alt="Logo">
+          &#5167;</Icons>
             </SiteNavItem>
           </SiteNavItems>
         </SiteNav>

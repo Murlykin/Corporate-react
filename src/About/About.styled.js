@@ -67,7 +67,7 @@ export const AboutImg = styled.img`
     export const AboutTextP = styled.p`
     font-size: 18px;
     line-height: 1.66;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 `
     ;
@@ -75,9 +75,18 @@ export const AboutImg = styled.img`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
 `
-    ;
+        ;
+    export const  AboutNamPosition= styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: -50px 50px 0 0;
+`
+        ;    
+
     export const AboutColor = styled.p`
     font-weight: 700;
     font-size: 46px;
@@ -99,6 +108,13 @@ export const AboutVector = styled.img`
 
 }
 `;
+export const AboutVector1 = styled.svg`
+fill: #858585;
+stroke: #858585;
+// ransform: translate(0px, -1000%);
+// margin: -10px 0 0 0;
+}
+`;
 export const AboutButton = styled.button`
     font-family: "Catamaran", sans-serif;
     font-weight: 600;
@@ -110,10 +126,11 @@ export const AboutButton = styled.button`
     width: 186px;
     height: 68px;
     border: 1px solid #d22238;
-    margin-right: 10px;
+    transform: translate(0px, -50%);
+    // margin: -150px 0 0 0;
     
     &:focus {
-                background-color: #f4596b;
+    background-color: #f4596b;
     border: 1px solid #f4596b;
     transition: box-shadow 400ms ease-in 0s, color 400ms ease-in 0s, background-color 400ms ease-in 0s;
         }

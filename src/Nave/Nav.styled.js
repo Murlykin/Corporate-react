@@ -31,11 +31,16 @@ export const SiteNavItem = styled.span`
     justify-content: center;
     gap: 5px;
 `;
-export const Icons = styled.img`
-    margin-left: 10px;
+export const Icons = styled.a`
+    margin-left: 5px;
     width: 16px;
     height: 16px;
     color: #5a5666;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    cursor: pointer;
 `;
 export const IconsFlag = styled.img`
     width: 25px;

@@ -11,14 +11,17 @@ import {
     AboutNam,
     AboutColor,
     AboutColorP,
-    AboutVector,
-    AboutButton
+    // AboutVector,
+    AboutVector1,
+    AboutButton,
+    AboutNamPosition,
 } from "./About.styled";
 
 import MaskGroup3 from "../images/maskgroup3.png";
 import MaskGroup4 from "../images/maskgroup4.png";
-import Vector from "../images/Vector1.png";
-
+// import Vector from "../images/Vector1.png";
+// import Vector1 from "../images/q.svg";
+import Icon from '../images/icons.svg'; 
 const AboutSection = () => {
     return (
         <About>
@@ -37,20 +40,24 @@ const AboutSection = () => {
                                     58,000 employees<br /> across 30 countries.
                                     </AboutTextP>
                         <AboutNam>
-                                        <div>
+                                        <AboutNamPosition>
                                             <AboutColor>53k</AboutColor>
                                             <AboutColorP>Projects Done</AboutColorP>
-                                        </div>
-                                        <AboutVector src={Vector} alt="" />
-                                            <div>
-                                                <AboutColor>400</AboutColor>
-                                                <AboutColorP>Amazing Clients</AboutColorP>
-                                            </div>
-                                        <AboutVector src={Vector} alt="" />
-                                                <div>
-                                                    <AboutColor>1+</AboutColor>
-                                                    <AboutColorP>Get Awards</AboutColorP>
-                                                </div>
+                                        </AboutNamPosition>
+                                        <AboutVector1>
+                                            <use href={Icon + '#icon-vector'}></use></AboutVector1>
+                            
+                                        <AboutNamPosition>
+                                            <AboutColor>400</AboutColor>
+                                            <AboutColorP>Amazing Clients</AboutColorP>
+                                        </AboutNamPosition>
+                                        <AboutVector1>
+                                            <use href={Icon + '#icon-vector'}></use>
+                                        </AboutVector1>
+                                        <AboutNamPosition>
+                                                <AboutColor>1+</AboutColor>
+                                                <AboutColorP>Get Awards</AboutColorP>
+                                        </AboutNamPosition>
                         </AboutNam>
                                             <div><AboutButton>Learn More</AboutButton></div>
                     </AboutText>
