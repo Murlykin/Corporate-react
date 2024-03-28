@@ -135,7 +135,7 @@ export const VisonButton = styled.button`
     fill: #858585;
     
     &:focus {
-            color: #FFFFFF;
+    color: #FFFFFF;
     background-color: #d22238;
     border: 1px solid #d22238;
     fill: #FFFFFF;
@@ -143,14 +143,14 @@ export const VisonButton = styled.button`
         }
     
     &:hover {
-            color: #FFFFFF;
+    color: #FFFFFF;
     background-color: #d22238;
     border: 1px solid #d22238;
     fill: #FFFFFF;
     transition: box-shadow 400ms ease-in 0s, color 400ms ease-in 0s, background-color 400ms ease-in 0s;
         } 
     &:after {
-            content: " →";   
+    content: " →";   
         }
 `
     ;
