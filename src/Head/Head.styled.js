@@ -15,14 +15,14 @@ export const HeadLeftTitle= styled.h2`
     font-size: 60px;
     line-height: 1.2;
     font-weight: 700;
-    // color: #000000;
+    color: var(--texst-color);
 `
 ;
 export const HeadLeftP= styled.p`
         font-size: 18px;
     line-height: 1.66;
     margin: 30px 0 30px;
-    // color: #000000;
+    color: var(--texst-color);
 `
     ;
 
@@ -42,7 +42,7 @@ export const HeadLeftP1= styled.p`
     font-weight: 600;
     font-size: 15px;
     line-height: 1.66;
-    // color: #000000; 
+    color: var(--texst-color); 
     margin-top: 10px;
 `
     ;

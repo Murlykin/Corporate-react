@@ -52,11 +52,11 @@ body {
 }
 
 
-:root {
-/* $body-background-color:#ffffff; */
+/* :root {
+
   --body-background-color: #ffffff;
   --texst-color: #000000;
-  --body-background-color-Black: #ea1313;
+  --body-background-color-Black: #121212;
 
   
 
@@ -69,4 +69,40 @@ body {
   --icone-color: #afb1b8;
   --icone-bg-color: #f5f4fa;
   --timing-functione: cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+html[data-theme='dark'] {
+    --body-background-color: #121212;
+    --texst-color: #ffffff;
+      --button-text-color: #ffffff;
+        --button-background-color:  #121212;
+        --button-border-color: #5f0101;
 }
+html[data-theme='light'] {
+  --body-background-color: #ffffff;
+    --texst-color: #000000;
+      --button-text-color: #252525;
+        --button-background-color: #f9f9f9;
+        --button-border-color:  #121212;
+}
+/* .app__container {
+  background-color: var(--background-color);
+  transition: background-color 200ms linear;
+}
+
+.app__logo {
+  color: var(--icon-color);
+  transition: color 500ms linear;
+}
+
+.app__button,
+.app__button:hover,
+.app__button:focus,
+.app__button:active,
+.app__button:not(:disabled):not(.disabled):active {
+  color: var(--button-text-color);
+  background-color: var(--button-background-color);
+  border-color: var(--button-border-color);
+  transition: color 500ms linear, background-color 500ms linear,
+    border-color 500ms linear;
+} */

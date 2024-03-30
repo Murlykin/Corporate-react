@@ -24,6 +24,7 @@ export const AboutUs = styled.p`
     width: 560px;
     height: 119px;
     margin: 100px 0 0 -100px;
+    
 `
     ;
 
@@ -62,12 +63,14 @@ export const AboutImg = styled.img`
     line-height: 1.3;
     margin-bottom: 20px;
     letter-spacing: 0.02em;
+    color: var(--texst-color);
 `
     ;
     export const AboutTextP = styled.p`
     font-size: 18px;
     line-height: 1.66;
     margin-bottom: 10px;
+    color: var(--texst-color);
 }
 `
     ;

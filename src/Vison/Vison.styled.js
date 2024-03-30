@@ -24,6 +24,7 @@ export const VisonTitle = styled.h2`
     letter-spacing: 0.02em;
     text-align: center;
     letter-spacing: 0.02em;
+    color: var(--texst-color);
 `
     ;
 
@@ -33,7 +34,8 @@ export const VisonTitleP = styled.p`
     font-size: 18px;
     line-height: 1.66;
     text-align: center;
-    letter-spacing: 0.02em;;
+    letter-spacing: 0.02em;
+    color: var(--texst-color);
 `
     ;
 
@@ -89,6 +91,7 @@ export const VisonCardTitle = styled.h3`
     line-height: 1.57;
     letter-spacing: 0.02em;
     margin-top: 50px; 
+    color: var(--texst-color);
 }
 `
     ;
@@ -97,7 +100,7 @@ export const VisonCardP = styled.p`
     line-height: 1.75;
     letter-spacing: 0.02em;
     margin-top: 25px;
-    color: #858585;
+    color: var(--texst-color);
 }
 `
     ;

@@ -14,7 +14,6 @@ function App() {
 
   return (
     <>
-      <div>
         <Headerbar />
         <Headbar />
         <СlientsSection />
@@ -25,7 +24,6 @@ function App() {
         <BlogSection />
         <GetSection />
         <FooterSection />
-      </div>
     </>
   )
 }

@@ -39,6 +39,7 @@ export const GetTitle = styled.h2`
     font-size: 46px;
     line-height: 1.3;
     letter-spacing: 0.02em;
+    color: var(--texst-color);
 `
     ;
 export const GetP = styled.p`
@@ -46,6 +47,7 @@ export const GetP = styled.p`
     margin: 10px 0 100px 0;
     font-size: 18px;
     line-height: 1.66;
+    color: var(--texst-color);
 `
     ;
 export const GetEmail = styled.input`

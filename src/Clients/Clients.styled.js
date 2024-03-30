@@ -13,6 +13,7 @@ export const ClientsTitle = styled.h2`
     font-weight: 700;
     font-size: 46px;
     line-height: 1.3;
+    color: var(--texst-color);
 `
     ;
 

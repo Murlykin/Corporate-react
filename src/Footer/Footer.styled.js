@@ -23,6 +23,7 @@ export const FooterLogo = styled.svg`
     fill: #3F3F3F;
     width: 240px;
     height: 35px;
+    fill: var(--texst-color);
 `
     ;
 export const FooterP = styled.p`
@@ -30,6 +31,7 @@ export const FooterP = styled.p`
     font-size: 16px;
     line-height: 1.75;
     letter-spacing: 0.02em;
+    color: var(--texst-color);
 `
     ;
 export const FooterPLi = styled.li`
@@ -64,6 +66,7 @@ export const FooterH4= styled.h4`
     line-height: 1.75;
     margin-bottom: 50px;
     letter-spacing: 0.02em;
+    color: var(--texst-color);
 `
     ;   
 export const FooterUl= styled.ul`
@@ -74,7 +77,7 @@ export const FooterUl= styled.ul`
     ;  
 export const FooterDecaration= styled.a`
     text-decoration: none;
-    color: #5a5666;
+    color: var(--texst-color);
 `
     ;  
 
@@ -101,7 +104,7 @@ export const FooterCopyraight= styled.p`
     color: #3d3d3d;
     text-align: center;
     padding: 10px;
-    color: #5a5666;
+    color: var(--texst-color);
 `
     ;  
 

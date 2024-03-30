@@ -1,7 +1,4 @@
-import { useState } from "react";
-import { ThemeProvider, createTheme } from "@mui/material/styles";
-import CssBaseline from "@mui/material/CssBaseline";
-import { Switch, } from "@mui/material"
+import { useTheme } from '../HooksTheme/UseTheme'
 
 import {
   Header,
@@ -16,10 +13,11 @@ import {
   BackHeadRightImg3,
   BackHeadRightImg4,
   BackHeadRightImg6,
+  HeaderButton,
+  HeaderButtonGroup,
 } from "./Header.styled";
 
 import Navbar from "../Nave/index";
-// import LogoImg from "../images/svg/Group.svg";
 import Head5 from "../images/head5.png";
 import Head1 from "../images/head1.png";
 import Head2 from "../images/head2.png";
@@ -29,29 +27,17 @@ import Head6 from "../images/head6.png";
 import Icon from '../images/icons.svg';
 
 const Headerbar = () => {
-  const [toggleDarkMode, setToggleDarkMode] = useState(true);
-  const toggleDarkTheme = () => {
-    setToggleDarkMode(!toggleDarkMode);
-  };
 
-  // applying the primary and secondary theme colors
-  const darkTheme = createTheme({
-    palette: {
-      mode: toggleDarkMode ? 'dark' : 'light', // handle the dark mode state on toggle
-      primary: {
-        main: '#ffffff',
-      },
-      secondary: {
-        main: '#131052',
+  const { theme, setTheme } = useTheme()
 
-      },
-    },
-  });
-
+  const handleLightThemeClick = () => {
+    setTheme('light')
+  }
+  const handleDarkThemeClick = () => {
+    setTheme('dark')
+  }
 
   return (
-    <ThemeProvider theme={darkTheme}>
-      <CssBaseline />
 
       <Header>
         <Logo alt="Logo">
@@ -72,13 +58,21 @@ const Headerbar = () => {
           </BackHeadRight>
         </BackHead>
         <BackHeadRightImg5 src={Head5} alt="Head img" />
+      
+        <HeaderButtonGroup aria-label="Theme toggle">
+          <HeaderButton variant="secondary" onClick={handleLightThemeClick}>
+            Light
+          </HeaderButton>
+          <HeaderButton variant="secondary" onClick={handleDarkThemeClick}>
+            Dark
+          </HeaderButton>
+        </HeaderButtonGroup>
 
-
-        <Switch checked={toggleDarkMode} onChange={toggleDarkTheme} />
+        {/* <Switch checked={toggleDarkMode} onChange={toggleDarkTheme} /> */}
 
       </Header>
 
-    </ThemeProvider>
+    // </ThemeProvider>
   );
 };
 

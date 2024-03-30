@@ -14,6 +14,7 @@ export const FeaturesFeatures = styled.p`
     line-height: 1.64;
     color: #f5f5f5;
     margin-left: -140px;
+
 `
     ;
 
@@ -29,6 +30,7 @@ export const FeaturesTitle = styled.h2`
     line-height: 1.3;
     letter-spacing: 0.02em;
     letter-spacing: 0.02em;
+    color: var(--texst-color);
 `
     ;
 
@@ -36,6 +38,7 @@ export const FeaturesP = styled.p`
     font-size: 18px;
     line-height: 1.66;
     letter-spacing: 0.02em;
+    color: var(--texst-color);
 `
     ;
 export const FeaturesLi = styled.li`
@@ -69,6 +72,7 @@ export const FeaturesLiTitle = styled.h4`
     font-size: 24px;
     line-height: 1.46;
     letter-spacing: 0.02em;
+    color: var(--texst-color);
 `
     ;
 
@@ -77,6 +81,7 @@ export const FeaturesLiP = styled.p`
     font-size: 16px;
     line-height: 1.17;
     letter-spacing: 0.02em;
+    color: var(--texst-color);
 `
     ;
 export const FeaturesIcon = styled.img`

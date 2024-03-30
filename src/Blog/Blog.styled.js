@@ -89,6 +89,7 @@ export const BlogTitle = styled.h2`
     line-height: 1.3;
     letter-spacing: 0.02em;
     text-align: center;
+    color: var(--texst-color);
     ;
 `    
 export const BlogTitleP = styled.p`
@@ -97,6 +98,7 @@ export const BlogTitleP = styled.p`
     font-size: 18px;
     line-height: 1.66;
     text-align: center;
+    color: var(--texst-color);
     ;
 `    
 export const BlogBlogP = styled.p`

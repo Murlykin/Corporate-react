@@ -1,25 +1,24 @@
 import styled from '@emotion/styled';
 
-export const Header= styled.div`
+export const Header = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
 `
-;
+    ;
 
 export const Logo = styled.svg`
     width: 240px;
     height: 35px;
     fill: #3F3F3F;
     margin-left: -150px;
-    &:hover {
-    fill: #5a5666;;
-    transition: all .25s ease 0s;
+    fill: var(--texst-color);
+
 `
     ;
 
 
-export const BackHead= styled.div`
+export const BackHead = styled.div`
     display: flex;
     position: absolute;
     z-index: -15;
@@ -29,7 +28,7 @@ export const BackHead= styled.div`
     margin-top: 300px;
 `
     ;
-export const BackHeadLeft= styled.div`
+export const BackHeadLeft = styled.div`
     display: flex;
     position: relative;
     z-index: -16;
@@ -51,39 +50,58 @@ export const BackHeadLeftImg2 = styled.img`
 `
     ;
 
-export const BackHeadRight= styled.div`
+export const BackHeadRight = styled.div`
     display: flex;
     position: relative;
     z-index: -17;
 `
     ;
 
-export const BackHeadRightImg5= styled.img`
+export const BackHeadRightImg5 = styled.img`
     transform: translate(0px, 350%);
     position: relative;
     z-index: +30;
 `
     ;
 
- export const BackHeadRightPosition= styled.div`
+export const BackHeadRightPosition = styled.div`
     display: flex;
     transform: translate(200px, 50%);
     gap: 100px;
 `
-;
+    ;
 
-export const BackHeadRightImg3= styled.img`
+export const BackHeadRightImg3 = styled.img`
     width: 180px;
     height: 80px;
     transform: translate(230px, 70%);
 `
     ;
-export const BackHeadRightImg4= styled.img`
+export const BackHeadRightImg4 = styled.img`
     height: 120px;
     transform: translate(100px, 120%);
 `
     ;
-export const BackHeadRightImg6= styled.img`
+export const BackHeadRightImg6 = styled.img`
     transform: translate(40px, -10%);
 `
     ;
+export const HeaderButton = styled.button`
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-color: var(--button-border-color);
+    transition: color 500ms linear, background-color 500ms linear,
+    border-color 500ms linear;
+    border-radius: 10px;
+`
+    ;
+export const HeaderButtonGroup = styled.div`
+    display: flex;
+    position: relative;
+ 
+    gap: 5px;
+
+`
+    ;
+
+

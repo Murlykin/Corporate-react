@@ -20,7 +20,7 @@ export const SiteNavLink = styled.a`
     letter-spacing: 0.02em;
     text-decoration: none;
     position: relative;
-    color: #5a5666;
+    color: var(--texst-color);
     cursor: pointer;
 
 `
@@ -41,6 +41,7 @@ export const Icons = styled.a`
     display: flex;
     font-weight: bold;
     cursor: pointer;
+    color: var(--texst-color);
 `;
 export const IconsFlag = styled.img`
     width: 25px;

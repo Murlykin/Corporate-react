@@ -49,7 +49,7 @@ const Headbar = () => {
                         <HeadLeftFormButton>Discover Now</HeadLeftFormButton>
                     </label>
                 </HeadLeftForm>
-                <HeadLeftP1>
+                <HeadLeftP1 >
                     *By clicking the button, you are agreeing with our{" "}
                     <HeadLeftP1Color>Terms & Conditions</HeadLeftP1Color>
                 </HeadLeftP1>
