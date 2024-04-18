@@ -31,74 +31,34 @@ import MaskGroup1 from "../images/MaskGroup1.png";
 import MaskGroup2 from "../images/MaskGroup2.png";
 import { SendEmail } from "../service/AuthUserAPI";
 import { toast } from 'react-toastify';
-// import { useDispatch } from 'react-redux';
-// import { signUp } from '../redux/auth.thunk';
 
 const Headbar = () => {
 
-   
     const handleSubmit = evt => {
         evt.preventDefault();
+     
         const data = {
             email: evt.currentTarget.elements.email.value,
 
-        }; console.log (' data :>>', data)
-        SendEmail(data);
-        toast.success('Message send successful!');
+        };
+        console.log(' data :>>', data)
+        var input = document.getElementById("email");
+        if (input && input.value) {
+            //виконати відправку
+            SendEmail(data);
+            toast.success('Message send successful!');
+            alert('Message send successful!'); 
+            
+        }
+        else {
+            //показати повідомлення
+            alert('Error sending data, fill in the field');
+        }
+    evt.target.reset();
 
     }
 
-//     const handleSubmit = (e) => {
-//         e.preventDefault();
-//         const data = {
-//             email: e.currentTarget.elements.email.value,
-        
-//         }
 
-//         console.log ('ndata :>>', data)
-//         SendEmail(data)
-//         // console.log (data)
-//             // .then(() => toast.success('Created'))   
-//         // .then(() => console.log('Created'))
-//         // .catch((error) => console.log(error))
-// console.log (SendEmail)
-//         }
-    
-    //   const dispatch = useDispatch();
-
-//   const handleSubmit = e => {
-//     e.preventDefault();
-//     const form = e.currentTarget;
-
-
-//       signUp({
-        
-//         email: form.elements.email.value,
-       
-//       })
- 
-//     form.reset();
-//   };
-//   const dispatch = useDispatch();
-
-//   const handleSubmit = (evt) => {
-//     evt.preventDefault();
-//     const form = evt.currentTarget;
-
-//     const email = form.elements.email.value;
-
-
-//     dispatch(
-//       signUp({
-  
-//         email,
-
-//       })
-//     );
-//     form.reset();
-//   };
-    
-    
     return (
         <Head>
             <HeadLeft>
@@ -109,18 +69,15 @@ const Headbar = () => {
                 </HeadLeftP>
                 <HeadLeftForm onSubmit={handleSubmit}>
                     <HeadLeftFormInput
-        //   id="email"
-        //   type="email"
-        //   name="email"
-        //  placeholder="Email address"
-            type="email"
-            name="email"
-            placeholder="example@mail.com"
-            autoComplete="off"            
+                        id="email"
+                        type="email"
+                        name="email"
+                        placeholder="example@mail.com"
+                        autoComplete="off"
 
-         />
+                    />
                     <HeadLeftFormButton type="submit">Discover Now</HeadLeftFormButton>
-                    
+
                 </HeadLeftForm>
                 <HeadLeftP1 >
                     *By clicking the button, you are agreeing with our{" "}
@@ -128,35 +85,35 @@ const Headbar = () => {
                 </HeadLeftP1>
             </HeadLeft>
             <HeadRait>
-            <HeadRaitImg src={Woman} alt=""/>
-            <HeadSocial>
-                <HeadMedal>
-                    <HeadMedal1 src={Medal} alt="" /> 
-                    <HeadMedal2 src={Ellipsel}  alt="" />
-                </HeadMedal>
-                <HeadPosition>
-                    <HeadH3>Best Design Awards</HeadH3>
-                    <HeadP>#1 UX Agency</HeadP>
-                
-                    <HeadPowerful>
-                        
-                    <HeadPowerfulImg src={MaskGroup1} alt="" />
-                    <div>
-                        <HeadH4>Powerful Platform</HeadH4>
-                        <HeadP700>Tuesday - $80.00</HeadP700>
-                    </div>
-                    <HeadPColor>+96 pts</HeadPColor>
-                </HeadPowerful>
-                <HeadPowerful>
-                    <HeadPowerfulImg src={MaskGroup2} alt=""/>
-                    <div>
-                        <HeadH4>Powerful Platform</HeadH4>
-                        <HeadP700>Tuesday - $80.00</HeadP700>
-                    </div>
-                    <HeadPColor>+96 pts</HeadPColor>
+                <HeadRaitImg src={Woman} alt="" />
+                <HeadSocial>
+                    <HeadMedal>
+                        <HeadMedal1 src={Medal} alt="" />
+                        <HeadMedal2 src={Ellipsel} alt="" />
+                    </HeadMedal>
+                    <HeadPosition>
+                        <HeadH3>Best Design Awards</HeadH3>
+                        <HeadP>#1 UX Agency</HeadP>
+
+                        <HeadPowerful>
+
+                            <HeadPowerfulImg src={MaskGroup1} alt="" />
+                            <div>
+                                <HeadH4>Powerful Platform</HeadH4>
+                                <HeadP700>Tuesday - $80.00</HeadP700>
+                            </div>
+                            <HeadPColor>+96 pts</HeadPColor>
                         </HeadPowerful>
-                </HeadPosition>
-            </HeadSocial>  
+                        <HeadPowerful>
+                            <HeadPowerfulImg src={MaskGroup2} alt="" />
+                            <div>
+                                <HeadH4>Powerful Platform</HeadH4>
+                                <HeadP700>Tuesday - $80.00</HeadP700>
+                            </div>
+                            <HeadPColor>+96 pts</HeadPColor>
+                        </HeadPowerful>
+                    </HeadPosition>
+                </HeadSocial>
             </HeadRait>
 
         </Head>
