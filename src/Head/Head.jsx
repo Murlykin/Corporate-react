@@ -42,7 +42,6 @@ const Headbar = () => {
         const data = {
             email: evt.currentTarget.elements.email.value,
 
-           
         }; console.log (' data :>>', data)
         SendEmail(data);
         toast.success('Message send successful!');
