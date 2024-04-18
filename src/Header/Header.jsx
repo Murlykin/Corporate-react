@@ -28,7 +28,7 @@ import Icon from '../images/icons.svg';
 
 const Headerbar = () => {
 
-  const { theme, setTheme } = useTheme()
+  const { setTheme } = useTheme()
 
   const handleLightThemeClick = () => {
     setTheme('light')

@@ -21,6 +21,8 @@
 // }
 
 // export default BtnScrollUp;
+
+
 import { addBackToTop } from 'vanilla-back-to-top';
 
 addBackToTop ({
