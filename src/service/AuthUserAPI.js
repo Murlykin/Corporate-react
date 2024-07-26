@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const backendAPI = axios.create({
-    baseURL: 'https://back-email.onrender.com',
+    baseURL: 'http://localhost:4000/',
 });
 
 export const SendEmail =  async body => {

@@ -31,6 +31,7 @@ import MaskGroup1 from "../images/MaskGroup1.png";
 import MaskGroup2 from "../images/MaskGroup2.png";
 import { SendEmail } from "../service/AuthUserAPI";
 import { toast } from 'react-toastify';
+import { SubmitButton } from "../SubmitButton/SubmitButton";
 
 const Headbar = () => {
 
@@ -77,7 +78,7 @@ const Headbar = () => {
 
                     />
                     <HeadLeftFormButton type="submit">Discover Now</HeadLeftFormButton>
-
+                <SubmitButton></SubmitButton>
                 </HeadLeftForm>
                 <HeadLeftP1 >
                     *By clicking the button, you are agreeing with our{" "}
